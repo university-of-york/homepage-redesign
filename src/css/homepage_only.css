@@ -1,0 +1,420 @@
+
+/*-----Homepage only---*/
+
+.homepage .l-content {
+	width: 935px;
+	clear:both;
+}
+
+.homepage .l-content-full {
+	width: 100%;
+	clear:both;
+}
+
+.homepage .alt-strip {
+	background:#fff;
+	border-top:2px solid #b6b6b6;
+	border-bottom:2px solid #b6b6b6;
+	margin:12px 0 6px;
+}
+.homepage .l-content-full.news {
+	background-color: #0F3D4C;
+}
+.homepage .content-box {
+	background: transparent;
+	box-shadow: none;
+}
+
+.homepage .col-1-3 {
+	float:left;
+	width:33.33%;
+}
+
+.homepage .col-1-3, .homepage .col-1-4   {
+	font-size: 0.813em; /*Smaller font size for homepage grid*/
+}
+
+.homepage .col-1-3 p, .homepage #main .col-1-4   p {
+	font-size:1em;
+}
+
+.homepage footer .col-1-4  {
+	font-size:1em;
+}
+
+.homepage #athena-swan {
+	margin-top:31px;
+}
+
+.homepage h3 a {
+	color:#000;
+}
+
+#homepage-features {
+	margin-top:13px;
+	overflow:hidden;
+}
+
+
+/*-----Key messages---*/
+
+ .key-message {
+	background-color:#0f3d4c;
+	background-repeat:no-repeat;
+	width:230px;
+ }
+
+ .key-message.careers-message {
+	background-image:url('/np/images/content/features/2013/careers-key-message.png');
+	background-position:50px 210px;
+ }
+
+.key-message.city-message {
+	background-image:url('/np/images/content/features/2014/city-key-message.png');
+	background-position:0 0;
+ }
+
+ .key-message.college-message {
+	background-image:url('/np/images/content/features/2014/college-community.png');
+	background-position:right bottom;
+ }
+
+.key-message.international-message {
+	background-image:url('/np/images/content/features/2014/globe.png');
+	background-position:10px 180px;
+ }
+
+ .key-message.investment-message {
+	background-image:url('/np/images/content/features/2014/investment-key-message.png');
+	background-position:0 210px;
+ }
+
+ .key-message.research-message {
+	background-image:url('/np/images/content/features/2014/research-key-message.png');
+	background-position:0 0;
+ }
+
+ .key-message.research-led-teaching-message {
+	background-image:url('/np/images/content/features/2014/research-led-teaching.png');
+	background-position:bottom right;
+ }
+
+ .key-message.sport-message {
+	background-image:url('/np/images/content/features/2014/sport-key-message.png');
+	background-position:0 0;
+ }
+
+
+
+
+
+
+  .key-message.investment-message .lead {
+
+	line-height:1.1em;
+
+ }
+
+ .key-message .slide-caption {
+	top:0;
+ }
+
+.key-message .slide-caption p {
+	background:none;
+	line-height:1.2em;
+	margin-right:0;
+}
+
+ .key-message .lead {
+	color:#678c97;
+	display:inline-block;
+	font-size:1.4em;
+	line-height:1.2em;
+	padding:0.5em 0;
+ }
+
+
+ .key-message .lead .number {
+	color: #fff;
+
+ }
+
+
+ /* ----- !Body Search form ----- */
+
+.body-search-form label {
+	font-family:"Pollen Regular", Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
+	font-size: 24px;
+	margin-right: 10px;
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	padding: 0;
+	float:left;
+}
+
+.body-search-form input,
+.body-search-form input[type="text"],
+.body-search-form select {
+	padding: 8px 0 7px 10px;
+	margin-right: 10px;
+	border-radius: 3px;
+	border: 1px solid #c9c9c9;
+	display: block;
+}
+
+.search-form input[type='submit'] {
+	height: 36px;
+	text-indent: 0;
+	color: #FFF;
+	border: 1px solid #a23479;
+	font-weight: bold;
+	background: #a23479 url('/media/global/2013/images/frame/icn-search.png') 100% 9px no-repeat;
+	margin: 0;
+	padding-right: 38px;
+	padding-left: 13px;
+}
+
+.body-search-form select {
+	text-indent: 0;
+}
+
+.styled-select {
+	background: #FFF url('/media/global/2013/images/frame/dd-bg.gif') 100% 0 no-repeat;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+
+.styled-select select:hover {
+	cursor: pointer;
+}
+
+.styled-select select{
+	background: none;
+	min-width: 200px;
+
+	border: 0;
+	margin: 0;
+
+	margin-right: 10px;
+	padding: 7px 0 6px 10px;
+	-webkit-appearance: none;
+	border: 1px solid #D7D7D7;
+}
+
+.dark-bg .styled-select select,
+.dark .styled-select select {
+	padding: 8px 0 7px 10px;
+	border: 0;
+}
+
+
+	.body-search-form input, .body-search-form .styled-select {
+		float: left;
+		margin-bottom: 0;
+	}
+
+.body-search-form select {
+		float: none;
+	}
+
+	.body-search-form input[type='submit'] {
+		background: #a23479 url('/media/global/2013/images/frame/icn-search.png') 100% 9px no-repeat;
+		padding-right: 38px;
+		padding-left: 13px;
+		width: 100%;
+		overflow: visible;
+		white-space: normal;
+		text-align:center;
+	/* 	float: right; */
+	}
+
+	.body-search-form input[type='text'] {
+		width: 187px;
+	}
+
+	.body-search-form .styled-select {
+		width: 255px;
+	}
+
+	.body-search-form .styled-select select{
+		width: 110%;
+	}
+
+
+	input#subject::-webkit-input-placeholder { /* WebKit browsers */
+		color:#777;
+	}
+	input#subject:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		color:#777;
+	}
+	input#subject::-moz-placeholder { /* Mozilla Firefox 19+ */
+		color:#777;
+	}
+	input#subject:-ms-input-placeholder { /* Internet Explorer 10+ */
+		color:#777;
+	}
+
+	fieldset#coursetypes {
+		float:left;
+		margin:9px 0;
+		padding:0;
+	}
+
+	fieldset#coursetypes label {
+		cursor:pointer;
+		display:block;
+		font-size:16px;
+		height:19px;
+		line-height:19px;
+		margin-right:15px;
+	}
+
+	fieldset#coursetypes input {
+		height:19px;
+		margin:0 5px 0 0;
+		vertical-align:bottom;
+	}
+
+/*Press releases*/
+
+
+.news .content-box {
+	background-color:#0F3D4C;
+	box-shadow:none;
+}
+
+
+.news h2 {
+	font-size:1.5em;
+	color: #fff;
+	margin-top:0;
+}
+
+.news h2 a:link, .news h2 a:hover, .news h2 a:visited {
+	color:#fff;
+}
+
+
+.newsitem {
+	 padding-right:20px;
+	 padding-bottom:20px;
+}
+
+a.headline {
+	color:#fff;
+	font-weight:bold;
+}
+
+p.newsPosted {
+	font-size: 0.9em !important;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	color: #678c97;
+}
+
+
+/*#yorkisblackandgold*/
+
+.yorkisblackandgold header {
+	border-top: 1px solid #FCB33B;
+}
+
+.yorkisblackandgold .dark-bg {
+	background-color:#000;
+}
+
+.yorkisblackandgold header .search-wrap input[type='submit'] {
+	background: #FCB33B url('/media/global/2013/images/frame/icn-search.png') 11px -37px no-repeat;
+}
+
+.yorkisblackandgold .nav-container {
+	border-top: 3px solid #FCB33B;
+}
+
+.yorkisblackandgold .main-menu li a:hover {
+	background-color:#FCB33B;
+}
+
+.yorkisblackandgold .course-finder-link {
+	background-color:#000;
+}
+.yorkisblackandgold .slide-caption h2 {
+	background-color: #000;
+	color: #FCB33B;
+}
+
+.yorkisblackandgold .slide-caption p {
+	background: rgba(0, 0, 0, 0.85);
+}
+
+.yorkisblackandgold  .key-message .slide-caption p {
+
+}
+
+.yorkisblackandgold  .key-message .lead {
+	color:#fff;
+}
+
+.yorkisblackandgold  .key-message .number {
+	color:#FCB33B;
+}
+
+.yorkisblackandgold .cta a {
+	background-color:#FCB33B;
+	color:#000;
+}
+
+.yorkisblackandgold .body-search-form input[type='submit']  {
+	background: #FCB33B url('/media/global/2013/images/frame/icn-search.png') 100% -32px no-repeat;
+	border-color:#FCB33B;
+	color:#000;
+}
+
+
+.yorkisblackandgold .news .content-box {
+	background-color:#333233;
+}
+
+
+.yorkisblackandgold footer {
+	border-top: 3px solid #FCB33B;
+}
+
+.yorkisblackandgold p.newsPosted {
+	color: #999999;
+}
+
+.yorkisblackandgold .key-message.sport-message {
+	background-image:url('/np/images/content/features/2014/yorkisblackandgold-sport-key-message.png');
+	background-position:0 0;
+ }
+
+ /*Festival of ideas*/
+
+/*.festivalofideas #homepage-features div.l-block:nth-child(1) .slide-caption h2, */ .festivalofideas #homepage-features div.l-block:nth-child(2) .slide-caption h2,.festivalofideas #homepage-features div.l-block:nth-child(3) .slide-caption h2 {
+	background-color:#000;
+ }
+
+/*.festivalofideas  #homepage-features div.l-block:nth-child(1) a:hover .slide-caption h2, */ .festivalofideas  #homepage-features div.l-block:nth-child(2) a:hover .slide-caption h2,.festivalofideas  #homepage-features div.l-block:nth-child(3) a:hover .slide-caption h2{
+	background-color:#b92f91;
+ }
+
+/*.festivalofideas #homepage-features div.l-block:nth-child(1) .slide-caption p,*/ .festivalofideas #homepage-features div.l-block:nth-child(2) .slide-caption p,.festivalofideas #homepage-features div.l-block:nth-child(3) .slide-caption p {
+	background-color:rgba(0, 0, 0, 0.75);
+ }
+
+/* New homepage layout Feb 2015 */
+.banner-story {
+	margin:20px 0 0;
+	color:#0f3d4c;
+	padding:0 20px;
+}
+.banner-story h4 {
+	margin:0 0 4px;
+	color:#a23479;
+	font-size:0.9em;
+}
+
+

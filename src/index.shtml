@@ -1,0 +1,461 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>University of York: A World Top 100 and Russell Group university</title>
+  <meta name="description" content="Outstanding teaching and research in a beautiful and historic European city. York is a World Top 100 University (THE World Rankings)" />
+  <link rel="shortcut icon" href="/media/global/templateimages/favicon.ico" />
+  <link rel="stylesheet" href="/np/css/homepage_only.css">
+  <link rel="stylesheet" href="/np/css/york_styles.css">
+  <!--[if IE]>
+  <link rel="stylesheet" href="/media/global/2013/styles/ie.css">
+  <![endif]-->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" href="/media/global/2013/styles/ie8.css">
+  <![endif]-->
+  <link rel="stylesheet" media="print" href="/media/global/2013/styles/print.css" />
+  <script src="/media/global/2013/scripts/modernizr.js"></script>
+</head>
+
+<body class="homepage">
+    <a href="#main" class="skipToContent">Skip to content</a>
+    <div class="l-site">
+
+        <header class="clear-self">
+            <div class="l-content clear-self">
+                <div class="site-menu-wrap">
+                    <ul class="site-menu horizontal-list clear-self">
+                        <li><a href="https://jobs.york.ac.uk">Jobs</a>
+                        </li>
+                        <li><a href="/about/visitors/">Visitors</a>
+                        </li>
+                        <li><a href="http://www.yorkspace.net/">Alumni</a>
+                        </li>
+                        <li><a href="/students/">Current students</a>
+                        </li>
+                        <li><a href="/staff/">Staff</a>
+                        </li>
+                    </ul>
+                    <div class="site-search">
+                        <div class="search-wrap">
+                            <form method="get" action="//www.york.ac.uk/search">
+                                <input type="text" name="q" title="Enter your search keywords" id="search" maxlength="2048">
+                                <input type="hidden" name="site" value="yorkweb">
+                                <input type="submit" name="btnG" value="Search" title="Search" class="submit">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <a href="/"><img class="logo" src="/media/global/2013/images/frame/york_logo.gif" width="275" height="41" />
+                </a>
+            </div>
+        </header>
+
+        <div class="nav-container dark-bg clear-self">
+            <div class="l-content mobile-btns clear-self">
+                <a class="mobile-nav-btn mobile-nav-menu" href="#main-menu">Menu</a>
+                <a class="mobile-nav-btn mobile-nav-search" href="#mobile-search">Search</a>
+            </div>
+            <nav>
+                <ul id="main-menu" class="main-menu l-content horizontal-list clear-self">
+                    <li>
+                        <a href="/study/">Study</a>
+                    </li>
+                    <li>
+                        <a href="/research/">Research</a>
+                    </li>
+                    <li>
+                        <a href="/business/">Business</a>
+                    </li>
+                    <li>
+                        <a href="/about/departments/">Departments</a>
+                    </li>
+                    <li>
+                        <a href="/about/international-relations/">International</a>
+                    </li>
+                    <li>
+                        <a href="/about/">About</a>
+                    </li>
+                    <li>
+                        <a href="/news-and-events/news/">News</a>
+                    </li>
+                    <li>
+                        <a href="/news-and-events/events/">Events</a>
+                    </li>
+                    <li class="course-finder-link">
+                        <a href="/about/contact/">Contact</a>
+                    </li>
+                </ul>
+                <div id="mobile-search" class="site-search mobile-search">
+                    <div class="search-wrap">
+                        <input type="text" placeholder="Search" />
+                        <input type="submit" value="Search" />
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="l-content">
+            <div class=" grid-container" id="homepage-features">
+                <div class="fixed-grid">
+                    <div class="l-block two-tall three-wide">
+                        <div class="l-block-inner">
+                            <a href="#">
+                                <img src="/np/images/content/features/large-placeholder.jpg" width="705" height="" alt="">
+                                <div class="slide-caption">
+                                    <h3>Book your Open Day place</h3>
+                                    <p>Come and see York for yourself at our Open Days this September</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="l-block two-tall">
+                        <div class="l-block-inner ">
+                            <div class="content-box mid-bg">
+                                <form id="course-search" class="body-search-form search-form clear-self" method="get" action="//www.york.ac.uk/study/undergraduate/courses/search/">
+                                    <label for="subject">Course finder</label>
+                                    <input type="text" id="subject" name="q" placeholder="Title, keywords or UCAS code">
+                                    <fieldset id="coursetypes">
+                                        <input type="radio" name="level" value="undergraduate" id="undergraduate" checked="checked" />
+                                        <label for="undergraduate">Undergraduate</label>
+                                        <br />
+                                        <input type="radio" name="level" value="postgraduate" id="postgraduate" />
+                                        <label for="postgraduate">Postgraduate</label>
+                                    </fieldset>
+                                    <input type="submit" value="Search courses">
+                                </form>
+                            </div>
+
+                            <div class="banner-story">
+                                <h4><a href="#">Masters taster sessions</a></h4>
+                                <p>Get a taste of postgraduate study at York at one of our online sessions.</p>
+                            </div>
+
+                            <div class="banner-story">
+                                <h4><a href="#">Postgraduate Virtual Open Days in February</a></h4>
+                                <p>Learn about our courses and discover what we have to offer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main" role="main">
+
+            <div class="l-content-full alt-strip">
+                <div class="l-content">
+                    <div class="flexi-grid clear-self ">
+
+                        <h2>Our research</h2>
+
+                        <div class="col-1-4">
+                            <div class="l-block content-box clear-self research">
+                                <a href="http://www.york.ac.uk/research/themes/silent-films/"><img src="http://www.york.ac.uk/media/research/2015/images/features/Asta_Nielsen_as_a_female_Hamlet_listing.jpg" width="204" alt="" />
+                                </a>
+                                <h3><a href="http://www.york.ac.uk/research/themes/silent-films/">How we're helping silent films find a new voice</a></h3>
+                                <p>Bringing our movie heritage to modern day audiences.</p>
+                                <p class="cta">
+                                    <a href="#">Read more</a>
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-1-4">
+                            <div class="l-block content-box clear-self research">
+                                <a href="http://www.york.ac.uk/research/themes/fuel-potential-sugar-cane/"><img src="http://www.york.ac.uk/media/research/2015/images/features/sugarcane2-listing.jpg" width="204" alt="" />
+                                </a>
+                                <h3><a href="http://www.york.ac.uk/research/themes/fuel-potential-sugar-cane/">Unlocking the fuel potential of sugar cane</a></h3>
+                                <p>We're collaborating to find ways to convert woody plant material into biofuel.</p>
+                                <p class="cta">
+                                    <a href="#">Read more</a>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-1-4">
+                            <div class="l-block content-box clear-self research">
+                                <a href="http://www.york.ac.uk/research/themes/depression-older-people/"><img src="http://www.york.ac.uk/media/research/2015/images/features/depression-listing.jpg" width="204" alt="" />
+                                </a>
+                                <h3><a href="http://www.york.ac.uk/research/themes/depression-older-people/">Depression and the Third Age</a></h3>
+                                <p>Our researchers are at the forefront of tackling depression in older people.</p>
+                                <p class="cta">
+                                    <a href="#">Read more</a>
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-1-4">
+                            <div class="l-block content-box clear-self research">
+
+                                <h3><a href="http://www.york.ac.uk/research/">About our research</a></h3>
+                                <p>A member of the Russell Group of research-intensive universities, we are committed to strengthening our position as one of the world's premier institutions for inspirational and life-changing research.</p>
+                                <p class="cta">
+                                    <a href="http://www.york.ac.uk/research">Explore more research</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="l-content-full">
+                <div class="l-content">
+                    <div class="flexi-grid clear-self">
+
+                        <h2>Explore York</h2>
+                        <div id="homepage-promos">
+                            <div class="col-1-4">
+                                <div class="l-block content-box clear-self">
+                                    <a href="/campus-investment/"><img src="/np/images/content/promo/campus_investment_204x112.jpg" width="204" height="112" alt="" />
+                                    </a>
+                                    <h3><a href="/campus-investment/">Investing in our campus</a></h3>
+                                    <p>We're growing fast and investing accordingly - £750 million in the last 10 years.</p>
+                                    <p class="cta">
+                                        <a href="/campus-investment/">See how campus is changing</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-1-4">
+                                <div class="l-block content-box clear-self">
+                                    <a href="/study/student-life/york-yorkshire/"><img src="/np/images/content/promo/york_minster_204x112.jpg" width="204" height="112" alt="" />
+                                    </a>
+                                    <h3><a href="/study/student-life/york-yorkshire/">The city of York</a></h3>
+                                    <p>Our beautiful, vibrant city is regularly cited as one of the best cities to live in the UK.</p>
+                                    <p class="cta">
+                                        <a href="/study/student-life/york-yorkshire/">Explore the city</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1-4">
+                                <div class="l-block content-box clear-self">
+                                    <a href="http://www.york.ac.uk/news-and-events/events/public-lectures/"><img src="/np/images/content/promo/public-lectures-1.jpg" width="204" height="112" alt="" />
+                                    </a>
+                                    <h3><a href="http://www.york.ac.uk/news-and-events/events/public-lectures/">Lectures: not just for students</a></h3>
+                                    <p>Every term we organise talks on a wide variety of topics, all open to the public and free to attend.</p>
+                                    <p class="cta">
+                                        <a href="http://www.york.ac.uk/news-and-events/events/public-lectures/">See our upcoming lectures</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1-4">
+                                <div class="l-block content-box clear-self">
+                                    <a href="http://www.york.ac.uk/study/student-life/sport/"><img src="/np/images/content/promo/sport.jpg" width="204" height="112" alt="" />
+                                    </a>
+                                    <h3><a href="http://www.york.ac.uk/study/student-life/sport/">A sporting tradition</a></h3>
+                                    <p>With £9m of new facilities and over 60 sports clubs, we cater for sport at all levels.</p>
+                                    <p class="cta">
+                                        <a href="http://www.york.ac.uk/study/student-life/sport/">Find out about sport at York</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="l-content-full news">
+            <div class="l-content">
+                <div class="flexi-grid clear-self">
+                    <div class="col-full content-box">
+                        <h2><a href="/news-and-events/news/">Latest news</a></h2>
+
+                        <div class="col-1-3">
+                            <div class="newsitem">
+                                <div class="newstext">
+                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/community/tour-bunting/" class="headline">Students&rsquo; woollen bunting idea gets Tour knitters in a spin</a>
+                                    <p class="newsPosted">Wednesday 2 April 2014</p>
+
+                                </div>
+
+                            </div>
+                            <div class="newsitem">
+                                <div class="newstext">
+                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/early-career-research/" class="headline">York biochemist wins top Early Career Research Award </a>
+                                    <p class="newsPosted">Tuesday 1 April 2014</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-1-3">
+                            <div class="newsitem">
+                                <div class="newstext">
+                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/research/hf-che/" class="headline">York&rsquo;s key role in research on &lsquo;self-management support&rsquo;</a>
+                                    <p class="newsPosted">Monday 31 March 2014</p>
+
+                                </div>
+
+                            </div>
+                            <div class="newsitem">
+                                <div class="newstext">
+                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/tim-charlton/" class="headline">On-screen television role for University of York maths student</a>
+                                    <p class="newsPosted">Monday 31 March 2014</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-1-3">
+                            <div class="newsitem">
+                                <div class="newstext">
+                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/events/world-voice-day/" class="headline">York World Voice Day event explores science behind choral singing</a>
+                                    <p class="newsPosted">Friday 28 March 2014</p>
+
+                                </div>
+
+                            </div>
+                            <div class="newsitem">
+                                <div class="newstext">
+                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/events/same-sex-marriage/" class="headline">University of York event to mark same sex marriage legislation</a>
+                                    <p class="newsPosted">Thursday 27 March 2014</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="dark-bg clear-self">
+            <div class="l-content">
+                <div class="flexi-grid">
+                    <div class="col-1-4">
+                        <div class="l-block content-box">
+                            <p>University of York
+                                <br /> York
+                                <br /> YO10 5DD
+                                <br /> United Kingdom
+                                <br /> Tel: +44 (0) 1904 320 000</p>
+                        </div>
+                    </div>
+                    <div class="col-1-4">
+                        <ul class="l-block content-box">
+                            <li><a href="/about/departments/a-to-z/">A to Z</a>
+                            </li>
+                            <li><a href="https://jobs.york.ac.uk/">Jobs</a>
+                            </li>
+                            <li><a href="/news-and-events/for-media/">Press and media</a>
+                            </li>
+                            <li><a href="/about/legal-statements/">Legal statements</a>
+                            </li>
+                            <li><a href="/about/legal-statements/#tab-5">Privacy and cookies</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-1-4">
+                        <div class="l-block content-box footer-social-links">
+                            <p>Follow us:</p>
+                            <a class="social-link twitter" href="https://twitter.com/uniofyork">Follow us on Twitter</a>
+                            <a class="social-link fb" href="https://www.facebook.com/universityofyork">Like us on Facebook</a>
+                            <a class="social-link yt" href="http://www.youtube.com/universityofyorkuk">Find us YouTube</a>
+                        </div>
+                    </div>
+
+
+                    <!-- end T4 nav 8926 -->
+                    <div class="col-1-4">
+                        <div class="content-box footer-updated">
+                            <p>&copy; University of York</p>
+                            <a href="/research/athena-swan/"><img id="athena-swan" src="/np/images/athena_swan_member.png" alt="Athena SWAN Member" width="70" height="36" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+        <script type="text/javascript">
+          $(function() {
+              //Toggle the destination of UG/PG course searches
+              $("input[name='level']").change(function() {
+                  if ($(this).val() === 'undergraduate') {
+                      $("form#course-search").attr("action", "/study/undergraduate/courses/search/");
+                      $("input#subject").attr("placeholder", "Course title, keywords or UCAS code");
+                  }
+                  if ($(this).val() === 'postgraduate') {
+                      $("form#course-search").attr("action", "/study/postgraduate/courses/search/");
+                      $("input#subject").attr("placeholder", "Course title or keywords");
+                  }
+              });
+
+              //Track clicks on features
+              $("#homepage-features a").click(function() {
+                  var featureURL = $(this).attr("href");
+                  var featureTitle = $(this).find("p").text();
+                  trackOutboundLink(this, 'Homepage', 'Features', featureTitle + ' (' + featureURL + ')');
+                  return false;
+              });
+
+              //Track clicks on promos
+              $("#homepage-promos a").click(function() {
+                  var promoURL = $(this).attr("href");
+                  trackOutboundLink(this, 'Homepage', 'Promos', promoURL);
+                  return false;
+              });
+
+              //Delay the outbound click by a fraction of a second so that the event has time to register
+              function trackOutboundLink(link, category, action, label) {
+                  try {
+                      pageTracker._trackEvent(category, action, label);
+                  } catch (err) {}
+                  setTimeout(function() {
+                      document.location.href = link.href;
+                  }, 100);
+              }
+
+              //Make news items all the same height
+              function equalHeight(group) {
+                  tallest = 0;
+                  group.each(function() {
+                      thisHeight = $(this).height();
+                      if (thisHeight > tallest) {
+                          tallest = thisHeight;
+                      }
+                  });
+
+                  group.height(tallest);
+              }
+
+              equalHeight($(".newsitem"));
+              equalHeight($(".research"));
+
+          });
+        </script>
+        <script type="text/javascript">
+          setTimeout(function() {
+              var a = document.createElement("script");
+              var b = document.getElementsByTagName("script")[0];
+              a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0018/9913.js?" + Math.floor(new Date().getTime() / 3600000);
+              a.async = true;
+              a.type = "text/javascript";
+              b.parentNode.insertBefore(a, b)
+          }, 1);
+        </script>
+        <script type="text/javascript">
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+          var pageTracker = _gat._getTracker("UA-1621853-1");
+          pageTracker._setDomainName("york.ac.uk");
+          pageTracker._setAllowLinker(true);
+          pageTracker._initData();
+          pageTracker._trackPageview();
+          pageTracker._trackPageLoadTime();
+        </script>
+
+</body>
+
+</html>
