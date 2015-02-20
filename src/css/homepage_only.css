@@ -20,7 +20,7 @@
 .homepage .l-content-full.news {
 	background-color: #0F3D4C;
 }
-.homepage .content-box {
+.homepage .l-content-full .content-box {
 	background: transparent;
 	box-shadow: none;
 }
@@ -416,5 +416,3 @@ p.newsPosted {
 	color:#a23479;
 	font-size:0.9em;
 }
-
-
