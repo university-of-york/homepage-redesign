@@ -1,5 +1,8 @@
 
 /*-----Homepage only---*/
+.homepage .l-site {
+	background-color:#fff;
+}
 
 .homepage .l-content {
 	width: 935px;
@@ -12,7 +15,7 @@
 }
 
 .homepage .alt-strip {
-	background:#fff;
+	background:#d1d1d1;
 	border-top:2px solid #b6b6b6;
 	border-bottom:2px solid #b6b6b6;
 	margin:12px 0 6px;
