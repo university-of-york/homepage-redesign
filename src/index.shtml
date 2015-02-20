@@ -116,7 +116,7 @@
                             <div class="content-box mid-bg">
                                 <form id="course-search" class="body-search-form search-form clear-self" method="get" action="//www.york.ac.uk/study/undergraduate/courses/search/">
                                     <label for="subject">Course finder</label>
-                                    <input type="text" id="subject" name="q" placeholder="Title, keywords or UCAS code">
+                                    <input type="text" id="subject" name="q" placeholder="Course title or keywords">
                                     <fieldset id="coursetypes">
                                         <input type="radio" name="level" value="undergraduate" id="undergraduate" checked="checked" />
                                         <label for="undergraduate">Undergraduate</label>
@@ -382,11 +382,9 @@
               $("input[name='level']").change(function() {
                   if ($(this).val() === 'undergraduate') {
                       $("form#course-search").attr("action", "/study/undergraduate/courses/search/");
-                      $("input#subject").attr("placeholder", "Course title, keywords or UCAS code");
                   }
                   if ($(this).val() === 'postgraduate') {
                       $("form#course-search").attr("action", "/study/postgraduate/courses/search/");
-                      $("input#subject").attr("placeholder", "Course title or keywords");
                   }
               });
 
