@@ -81,7 +81,6 @@ module.exports = function(grunt) {
   	  }
   	},
 
-    // TODO live target
     ftpush: {
 			test: {
 				auth: {
@@ -94,6 +93,16 @@ module.exports = function(grunt) {
 				simple: 'true'
 			}
 		},
+    live: {
+      auth: {
+        host: 'ftp.york.ac.uk',
+        port: 21,
+        authKey: 'key1'
+      },
+      src: 'upload',
+      dest: '.',
+      simple: 'true' //No deletions carried out on server
+    }
 
 
 
