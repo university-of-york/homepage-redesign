@@ -102,13 +102,7 @@
                 <div class="fixed-grid">
                     <div class="l-block two-tall three-wide">
                         <div class="l-block-inner">
-                            <a href="#">
-                                <img src="/np/images/content/features/large-placeholder.jpg" width="705" height="" alt="">
-                                <div class="slide-caption">
-                                    <h3>Book your Open Day place</h3>
-                                    <p>Come and see York for yourself at our Open Days this September</p>
-                                </div>
-                            </a>
+                          <!--(bake path-to-snippets/main/index.html)-->
                         </div>
                     </div>
                     <div class="l-block two-tall">
@@ -128,15 +122,7 @@
                                 </form>
                             </div>
 
-                            <div class="banner-story">
-                                <h4><a href="#">Masters taster sessions</a></h4>
-                                <p>Get a taste of postgraduate study at York at one of our online sessions.</p>
-                            </div>
-
-                            <div class="banner-story">
-                                <h4><a href="#">Postgraduate Virtual Open Days in February</a></h4>
-                                <p>Learn about our courses and discover what we have to offer.</p>
-                            </div>
+                            <!--(bake path-to-snippets/sidebar/index.html)-->
                         </div>
                     </div>
                 </div>
@@ -151,44 +137,7 @@
 
                         <h2>Our research</h2>
 
-                        <div class="col-1-4">
-                            <div class="l-block content-box clear-self research">
-                                <a href="http://www.york.ac.uk/research/themes/silent-films/"><img src="http://www.york.ac.uk/media/research/2015/images/features/Asta_Nielsen_as_a_female_Hamlet_listing.jpg" width="204" alt="" />
-                                </a>
-                                <h3><a href="http://www.york.ac.uk/research/themes/silent-films/">How we're helping silent films find a new voice</a></h3>
-                                <p>Bringing our movie heritage to modern day audiences.</p>
-                                <p class="cta">
-                                    <a href="#">Read more</a>
-                                </p>
-
-                            </div>
-
-                        </div>
-                        <div class="col-1-4">
-                            <div class="l-block content-box clear-self research">
-                                <a href="http://www.york.ac.uk/research/themes/fuel-potential-sugar-cane/"><img src="http://www.york.ac.uk/media/research/2015/images/features/sugarcane2-listing.jpg" width="204" alt="" />
-                                </a>
-                                <h3><a href="http://www.york.ac.uk/research/themes/fuel-potential-sugar-cane/">Unlocking the fuel potential of sugar cane</a></h3>
-                                <p>We're collaborating to find ways to convert woody plant material into biofuel.</p>
-                                <p class="cta">
-                                    <a href="#">Read more</a>
-                                </p>
-                            </div>
-
-                        </div>
-                        <div class="col-1-4">
-                            <div class="l-block content-box clear-self research">
-                                <a href="http://www.york.ac.uk/research/themes/depression-older-people/"><img src="http://www.york.ac.uk/media/research/2015/images/features/depression-listing.jpg" width="204" alt="" />
-                                </a>
-                                <h3><a href="http://www.york.ac.uk/research/themes/depression-older-people/">Depression and the Third Age</a></h3>
-                                <p>Our researchers are at the forefront of tackling depression in older people.</p>
-                                <p class="cta">
-                                    <a href="#">Read more</a>
-                                </p>
-
-                            </div>
-
-                        </div>
+                        <!--(bake path-to-snippets/research/index.html)-->
                         <div class="col-1-4">
                             <div class="l-block content-box clear-self research">
 
@@ -209,51 +158,7 @@
 
                         <h2>Explore York</h2>
                         <div id="homepage-promos">
-                            <div class="col-1-4">
-                                <div class="l-block content-box clear-self">
-                                    <a href="/campus-investment/"><img src="/np/images/content/promo/campus_investment_204x112.jpg" width="204" height="112" alt="" />
-                                    </a>
-                                    <h3><a href="/campus-investment/">Investing in our campus</a></h3>
-                                    <p>We're growing fast and investing accordingly - £750 million in the last 10 years.</p>
-                                    <p class="cta">
-                                        <a href="/campus-investment/">See how campus is changing</a>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-1-4">
-                                <div class="l-block content-box clear-self">
-                                    <a href="/study/student-life/york-yorkshire/"><img src="/np/images/content/promo/york_minster_204x112.jpg" width="204" height="112" alt="" />
-                                    </a>
-                                    <h3><a href="/study/student-life/york-yorkshire/">The city of York</a></h3>
-                                    <p>Our beautiful, vibrant city is regularly cited as one of the best cities to live in the UK.</p>
-                                    <p class="cta">
-                                        <a href="/study/student-life/york-yorkshire/">Explore the city</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-1-4">
-                                <div class="l-block content-box clear-self">
-                                    <a href="http://www.york.ac.uk/news-and-events/events/public-lectures/"><img src="/np/images/content/promo/public-lectures-1.jpg" width="204" height="112" alt="" />
-                                    </a>
-                                    <h3><a href="http://www.york.ac.uk/news-and-events/events/public-lectures/">Lectures: not just for students</a></h3>
-                                    <p>Every term we organise talks on a wide variety of topics, all open to the public and free to attend.</p>
-                                    <p class="cta">
-                                        <a href="http://www.york.ac.uk/news-and-events/events/public-lectures/">See our upcoming lectures</a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-1-4">
-                                <div class="l-block content-box clear-self">
-                                    <a href="http://www.york.ac.uk/study/student-life/sport/"><img src="/np/images/content/promo/sport.jpg" width="204" height="112" alt="" />
-                                    </a>
-                                    <h3><a href="http://www.york.ac.uk/study/student-life/sport/">A sporting tradition</a></h3>
-                                    <p>With £9m of new facilities and over 60 sports clubs, we cater for sport at all levels.</p>
-                                    <p class="cta">
-                                        <a href="http://www.york.ac.uk/study/student-life/sport/">Find out about sport at York</a>
-                                    </p>
-                                </div>
-                            </div>
+                          <!--(bake path-to-snippets/discover/index.html)-->
 
                         </div>
                     </div>
@@ -268,60 +173,7 @@
                     <div class="col-full content-box">
                         <h2><a href="/news-and-events/news/">Latest news</a></h2>
 
-                        <div class="col-1-3">
-                            <div class="newsitem">
-                                <div class="newstext">
-                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/community/tour-bunting/" class="headline">Students&rsquo; woollen bunting idea gets Tour knitters in a spin</a>
-                                    <p class="newsPosted">Wednesday 2 April 2014</p>
-
-                                </div>
-
-                            </div>
-                            <div class="newsitem">
-                                <div class="newstext">
-                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/early-career-research/" class="headline">York biochemist wins top Early Career Research Award </a>
-                                    <p class="newsPosted">Tuesday 1 April 2014</p>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-1-3">
-                            <div class="newsitem">
-                                <div class="newstext">
-                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/research/hf-che/" class="headline">York&rsquo;s key role in research on &lsquo;self-management support&rsquo;</a>
-                                    <p class="newsPosted">Monday 31 March 2014</p>
-
-                                </div>
-
-                            </div>
-                            <div class="newsitem">
-                                <div class="newstext">
-                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/tim-charlton/" class="headline">On-screen television role for University of York maths student</a>
-                                    <p class="newsPosted">Monday 31 March 2014</p>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-1-3">
-                            <div class="newsitem">
-                                <div class="newstext">
-                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/events/world-voice-day/" class="headline">York World Voice Day event explores science behind choral singing</a>
-                                    <p class="newsPosted">Friday 28 March 2014</p>
-
-                                </div>
-
-                            </div>
-                            <div class="newsitem">
-                                <div class="newstext">
-                                    <a href="http://www.york.ac.uk/news-and-events/news/2014/events/same-sex-marriage/" class="headline">University of York event to mark same sex marriage legislation</a>
-                                    <p class="newsPosted">Thursday 27 March 2014</p>
-
-                                </div>
-
-                            </div>
-                        </div>
+                        <!--(bake path-to-snippets/news/index.html)-->
                     </div>
                 </div>
             </div>
