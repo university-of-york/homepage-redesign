@@ -41,6 +41,14 @@ module.exports = function(grunt) {
           from: 'path-to-snippets',
           to: 'example-snippets'
         }]
+      },
+      media_paths: {
+        src: ['upload/index_example.shtml'],
+        overwrite: true,
+        replacements: [{
+          from: '="/media',
+          to: '="//www.york.ac.uk/media'
+        }]
       }
     },
 
@@ -72,6 +80,8 @@ module.exports = function(grunt) {
   		    dest: 'build/index.shtml'
   	  }
   	},
+
+    // TODO live target
     ftpush: {
 			test: {
 				auth: {
@@ -85,8 +95,6 @@ module.exports = function(grunt) {
 			}
 		},
 
-    //upload the css to www
-    //upload the page template to www
 
 
   });
@@ -100,17 +108,26 @@ module.exports = function(grunt) {
 
 
   //Tasks
-  grunt.registerTask('default', [
+  grunt.registerTask('build', [
     'clean',
     'copy:src',
     'cssmin',
     'hashres',
-    'replace',
+    'replace:snippets_path',
     'bake',
+    'replace:media_paths',
     'copy:css',
-    'copy:template',
+    'copy:template'
+  ]);
+  grunt.registerTask('test', [
+    'build',
     'ftpush:test'
   ]);
+  grunt.registerTask('live', [
+    'build',
+    'ftpush:live'
+  ]);
+
 
 
 };
