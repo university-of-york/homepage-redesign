@@ -4,8 +4,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-
     clean: ['download','build','upload'],
+
     copy: {
       src: {
         cwd: 'src',
@@ -19,18 +19,27 @@ module.exports = function(grunt) {
         dest: 'upload/css',
         expand:true
       },
-      template: {
+      template_test: {
         cwd:'build',
         src:'index.shtml',
         dest:'upload/',
         expand:true,
         rename: function(dest, src) {
-          return dest + src.replace('index','index_template');
+          return dest + src.replace('index','index_template_test');
+        }
+      },
+      template_live: {
+        cwd:'build',
+        src:'index.shtml',
+        dest:'upload/',
+        expand:true,
+        rename: function(dest, src) {
+          return dest + src.replace('index','index_template_live');
         }
       }
     },
 
-    //download york_stles.css from git (leave as local for now)
+    //TODO download york_stles.css from git (leave as local for now)
 
     replace: {
       snippets_path: {
@@ -43,11 +52,19 @@ module.exports = function(grunt) {
         }]
       },
       media_paths: {
-        src: ['upload/index_example.shtml'],
+        src: ['build/*.shtml'],
         overwrite: true,
         replacements: [{
           from: '="/media',
           to: '="//www.york.ac.uk/media'
+        }]
+      },
+      np_paths: {
+        src: ['upload/index_template_live.shtml'],
+        overwrite: true,
+        replacements: [{
+          from: '="/np',
+          to: '="//www.york.ac.uk/np'
         }]
       }
     },
@@ -91,21 +108,18 @@ module.exports = function(grunt) {
 				src: 'upload',
 				dest: '/usr/yorkwebtest/wwwtest.york.ac.uk/np/',
 				simple: 'true'
-			}
+			},
+      live: {
+        auth: {
+          host: 'ftp.york.ac.uk',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: 'upload',
+        dest: '.',
+        simple: 'true'
+      }
 		},
-    live: {
-      auth: {
-        host: 'ftp.york.ac.uk',
-        port: 21,
-        authKey: 'key1'
-      },
-      src: 'upload',
-      dest: '.',
-      simple: 'true' //No deletions carried out on server
-    }
-
-
-
   });
 
 
@@ -120,13 +134,13 @@ module.exports = function(grunt) {
   grunt.registerTask('build', [
     'clean',
     'copy:src',
+    'replace:media_paths',
     'cssmin',
     'hashres',
     'replace:snippets_path',
     'bake',
-    'replace:media_paths',
-    'copy:css',
-    'copy:template'
+    'copy:template_test',
+    'copy:css'
   ]);
   grunt.registerTask('test', [
     'build',
@@ -134,6 +148,8 @@ module.exports = function(grunt) {
   ]);
   grunt.registerTask('live', [
     'build',
+    'copy:template_live',
+    'replace:np_paths',
     'ftpush:live'
   ]);
 
