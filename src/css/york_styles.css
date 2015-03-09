@@ -586,7 +586,7 @@ body {
 
 h1 {
 	font-size: 2.063em;
-	font-family: "Pollen Regular", Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size-adjust: 0.44;
 	font-weight: normal;
 	font-style: normal;
@@ -597,7 +597,7 @@ h1 {
 
 h2,
 h3 {
-	font-family:"Pollen Regular", Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
+	font-family:Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
 }
 
 h2 {
@@ -942,7 +942,7 @@ a.cta {
 	padding-left: 25px;
 	background: url('/media/global/2013/images/frame/arrow-right-10w-pink.png') 0 50% no-repeat;
 	color: #333333;
-	font-family:"Pollen Regular", Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
+	font-family:Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
 }
 
 /* -------- !logo ---------------*/
@@ -1243,7 +1243,7 @@ footer .content-box {
 }
 
 .slide-caption h3, .slide-caption p {
-	font-family:"Pollen Regular", Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
+	font-family:Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
 	background: #082a35;
 	background: rgba(2,61,81,0.85);
 	margin: 0;
@@ -1282,7 +1282,7 @@ footer .content-box {
 	margin: 34px 0 2px 0;
 	font-size: 1.125em; /*18*/
 	line-height: 1.111em; /*20*/
-	font-family:"Pollen Regular", Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
+	font-family:Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
 }
 
 .grid-quote cite {
@@ -1335,7 +1335,7 @@ footer .content-box {
 	margin: 10px;
 	color: #FFF;
 	font-size: 1.438em;
-	font-family:"Pollen Regular", Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
+	font-family:Georgia, 'Times New Roman', Times, serif; font-size-adjust:0.44; font-weight:normal; font-style:normal;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -1761,7 +1761,7 @@ div#mdcolumn blockquote.quote p.quotation, div#rhcolumn blockquote.quote p.quota
 }
 
 div#mdcolumn blockquote.quote p.attribution, div#rhcolumn blockquote.quote p.attribution {
-	font-family: "Pollen Regular", Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 1.125em;
 	color: #8c3572;
 }
@@ -2301,7 +2301,7 @@ div#mdcolumn div.col-half .boxout p.newsPosted {
 #mdcolumn  p.newsTeaserText {
 	font-size: 1.125em;
 	line-height: 1.333em;
-	font-family: "Pollen Regular", Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size-adjust: 0.44;
 	font-weight: normal;
 	font-style: normal;
