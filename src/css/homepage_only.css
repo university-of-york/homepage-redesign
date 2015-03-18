@@ -419,3 +419,17 @@ p.newsPosted {
 	color:#a23479;
 	font-size:0.9em;
 }
+
+.slide-caption {
+	width:50%;
+}
+
+.slide-caption h3 {
+		font-size:2em;
+		line-height:1.2em;
+}
+
+.slide-caption p {
+	font-size:1.2em;
+	line-height:1.2em;
+}
