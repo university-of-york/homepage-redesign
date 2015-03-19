@@ -1016,26 +1016,62 @@ header .search-wrap input[type='submit'] {
 
 
 
-	.site-search {
-		display: block;
-		float: right;
-		clear: right;
-		margin: 10px 0;
-	}
-	.site-search .search-wrap {
-		width: 200px;
-	}
-	.mobile-search {
-		display: none !important;
-	}
+.site-search {
+  display: block;
+  float: right;
+  clear: right;
+  margin: 10px 0;
+}
+.site-search .search-wrap {
+  width: 200px;
+}
+.mobile-search {
+  display: none !important;
+}
 
 
 
-	.site-search {
-		float: left;
-		clear: none;
-		margin: 26px 0 0 0;
-	}
+.site-search {
+  float: left;
+  clear: none;
+  margin: 26px 0 0 0;
+}
+
+
+.ui-autocomplete {
+background: #fff;
+width:200px !important;
+border: #ccc 1px solid;
+margin: 20px 0 -320px 0;
+padding: 0px;
+list-style: none;
+}
+
+.ui-autocomplete li {
+padding: 0;
+line-height:18px;
+}
+
+.ui-autocomplete li a {
+display: block;
+width: 100%;
+padding: 7px 10px;
+cursor: pointer;
+box-sizing:border-box;
+color:#333233;
+font-size:13px;
+}
+
+.ui-autocomplete li:hover a, .ui-autocomplete .ui-state-focus {
+background-color: #f2f4f5;
+}
+.ui-autocomplete  strong {
+color:#a23479;
+}
+
+.ui-helper-hidden-accessible {
+display: none;
+}
 
 
 

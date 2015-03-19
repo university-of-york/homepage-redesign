@@ -228,6 +228,8 @@
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+        <script src="//www.york.ac.uk/media/global/2013/scripts/jquery.autocomplete.min.js"></script>
+
         <script type="text/javascript">
           $(function() {
               //Toggle the destination of UG/PG course searches
