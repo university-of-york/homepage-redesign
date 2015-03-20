@@ -166,6 +166,18 @@
 	display: block;
 }
 
+.body-search-form input.radio,
+.body-search-form input[type="radio"] {
+	margin:0;
+	padding:0;
+	border:none;
+	float:left;
+}
+
+.body-search-form p {
+	
+}
+
 .search-form input[type='submit'] {
 	height: 36px;
 	text-indent: 0;

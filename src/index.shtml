@@ -112,11 +112,15 @@
                                     <label for="subject">Course finder</label>
                                     <input type="text" id="subject" name="q" placeholder="Course title or keywords">
                                     <fieldset id="coursetypes">
+                                      <p>
                                         <input type="radio" name="level" value="undergraduate" id="undergraduate" checked="checked" />
                                         <label for="undergraduate">Undergraduate</label>
-                                        <br />
+                                      </p>
+                                      <br/>
+                                      <p>
                                         <input type="radio" name="level" value="postgraduate" id="postgraduate" />
                                         <label for="postgraduate">Postgraduate</label>
+                                      </p>
                                     </fieldset>
                                     <input type="submit" value="Search courses">
                                 </form>
