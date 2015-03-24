@@ -246,18 +246,28 @@
                   }
               });
 
-              //Track clicks on features
+              //Track clicks on main feature
               $("#homepage-features a").click(function() {
                   var featureURL = $(this).attr("href");
-                  var featureTitle = $(this).find("p").text();
-                  trackOutboundLink(this, 'Homepage', 'Features', featureTitle + ' (' + featureURL + ')');
+                  trackOutboundLink(this, 'Homepage', 'Main feature', featureURL);
                   return false;
               });
-
-              //Track clicks on promos
+              //Track clicks on study promos
+              $(".banner-story a").click(function() {
+                  var promoURL = $(this).attr("href");
+                  trackOutboundLink(this, 'Homepage', 'Study promo', promoURL);
+                  return false;
+              });
+              //Track clicks on Research
+              $(".research a").click(function() {
+                  var researchURL = $(this).attr("href");
+                  trackOutboundLink(this, 'Homepage', 'Research', researchURL);
+                  return false;
+              });
+              //Track clicks on Explore York
               $("#homepage-promos a").click(function() {
                   var promoURL = $(this).attr("href");
-                  trackOutboundLink(this, 'Homepage', 'Promos', promoURL);
+                  trackOutboundLink(this, 'Homepage', 'Explore York', promoURL);
                   return false;
               });
 
