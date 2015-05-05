@@ -20,6 +20,7 @@
 	border-bottom:2px solid #b6b6b6;
 	margin:12px 0 6px;
 }
+
 .homepage .l-content-full.news {
 	background-color: #0F3D4C;
 }
@@ -354,4 +355,15 @@ p.newsPosted {
 .slide-caption p {
 	font-size:1.2em;
 	line-height:1.2em;
+}
+
+.homepage .festival-strip {
+	background:#2f3233;
+	border-top:2px solid #154653;
+	border-bottom:2px solid #154653;
+	margin:12px 0 -12px;
+}
+
+.festival-strip h2, .festival-strip h3 a, .festival-strip p, .festival-strip a {
+	color: #fff;
 }
