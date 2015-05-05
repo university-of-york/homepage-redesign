@@ -134,7 +134,26 @@
         </div>
 
         <div id="main" role="main">
+          <div class="l-content-full festival-strip">
+              <div class="l-content">
+                  <div class="flexi-grid clear-self ">
 
+                      <h2>Festival of Ideas 2015</h2>
+
+                      <!--(bake path-to-snippets/festival/index.html)-->
+                      <div class="col-1-4">
+                          <div class="l-block content-box clear-self research">
+
+                              <p><a href="http://www.yorkfestivalofideas.com"><img src="//www.york.ac.uk/np/images/festival-logo-204px.png" alt="" /></a></p>
+                              <p>The York Festival of Ideas runs from 9 to 21 June 2015 with a theme of <em>Secrets and Discoveries</em>.</p><p> With over 150 events to choose from, you're bound to find something to inspire you!</p>
+                              <p class="cta">
+                                  <a href="http://www.yorkfestivalofideas.com">Explore the Festival</a>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
             <div class="l-content-full alt-strip">
                 <div class="l-content">
                     <div class="flexi-grid clear-self ">
