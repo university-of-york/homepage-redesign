@@ -101,7 +101,7 @@
             <div class=" grid-container" id="homepage-features">
                 <div class="fixed-grid">
                     <div class="l-block two-tall three-wide">
-                        <div class="l-block-inner">
+                        <div class="l-block-inner main-feature">
                           <!--(bake path-to-snippets/main/index.html)-->
                         </div>
                     </div>
@@ -266,7 +266,7 @@
               });
 
               //Track clicks on main feature
-              $("#homepage-features a").click(function() {
+              $(".main-feature a").click(function() {
                   var featureURL = $(this).attr("href");
                   trackOutboundLink(this, 'Homepage', 'Main feature', featureURL);
                   return false;
