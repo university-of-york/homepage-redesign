@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>University of York</title>
 	<meta name="description" content="Outstanding teaching and research in a beautiful and historic European city. York is a member of the prestigious Russell Group of research-intensive UK Universities. " />
+  <link rel=”openorg” href="http://www.york.ac.uk/.well-known/profile.rdf"/>
   <link rel="shortcut icon" href="/media/global/templateimages/favicon.ico" />
   <link rel="stylesheet" href="/np/css/york_styles.css">
   <link rel="stylesheet" href="/np/css/homepage_only.css">
